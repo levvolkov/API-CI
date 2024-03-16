@@ -1,20 +1,20 @@
 [![Java CI with Gradle](https://github.com/LevVolkov/API-CI/actions/workflows/gradle.yml/badge.svg)](https://github.com/LevVolkov/API-CI/actions/workflows/gradle.yml)
 [![Состояние сборки](https://ci.appveyor.com/api/projects/status/i2ql6nhfweloylk1?svg=true)](https://ci.appveyor.com/project/LevVolkov/api-ci)
 
-# 2.1 Домашнее задание к занятию «1.2. Тестирование API, CI»
+# 2.1 Домашнее задание к занятию «1.2. Тестирование API, CI» Задача 1-2.
 
 В качестве результата пришлите ссылку на ваш GitHub-проект в личном кабинете студента на сайте [netology.ru](https://netology.ru).
 
 Первые две задачи этого занятия нужно делать в одном репозитории.
 
-**Важно**: если у вас что-то не получилось, то оформляйте issue [по установленным правилам](../report-requirements.md).
+**Важно**: если у вас что-то не получилось, то оформляйте issue [по установленным правилам](https://github.com/netology-code/aqa-homeworks/blob/master/report-requirements.md).
 
 **Важно**: не делайте ДЗ всех занятий в одном репозитории. Иначе вам потом придётся достаточно сложно подключать системы Continuous integration.
 
 ## Как сдавать задачи
 
 1. Инициализируйте на своём компьютере пустой Git-репозиторий.
-1. Добавьте в него готовый файл [.gitignore](../.gitignore).
+1. Добавьте в него готовый файл [.gitignore](https://github.com/netology-code/aqa-homeworks/blob/master/.gitignore).
 1. Добавьте в этот же каталог код вашего приложения.
 1. Сделайте необходимые коммиты.
 1. Создайте публичный репозиторий на GitHub и свяжите свой локальный репозиторий с удалённым.
@@ -59,7 +59,7 @@ java -Duser.language=en -Duser.country=US -jar ./artifacts/app-mbank.jar
 - из папки api-ci локальной копии репозитория aqa-code копировать папку rest в папку с учебными проектами  
 - открыть папку rest в IDEA как проект Gradle, инициилизировать новый репозиторий в папке проекта rest   
 - создать в папке проекта папку artifacts, копировать в неё файл app-mbank.jar из папки api-ci       
-- настроить для проекта одну из CI на выбор: Github Actions ([инструкция](../github-actions-integration)) или Appveyor (см. инструкцию ниже)      
+- настроить для проекта одну из CI на выбор: Github Actions ([инструкция](https://github.com/netology-code/aqa-homeworks/tree/master/github-actions-integration)) или Appveyor (см. инструкцию ниже)      
 - добавить файлы проекта в репозиторий, выполнить коммит и пуш   
 - удостовериться, что CI показывает, что в сборке выполняются все автотесты.            
 
